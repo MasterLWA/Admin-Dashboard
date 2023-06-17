@@ -1,6 +1,8 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom'
-import Home from '../pages/Home/Home.jsx';
+
+import Loging from '../pages/Loging/Loging.jsx';
+import Dashboard from '../pages/Dashboard/Dashboard.jsx';
 
 const AppRoutes = () => {
     return (
@@ -9,8 +11,13 @@ const AppRoutes = () => {
             {/* Redirect */}
             <Route path="/" element={<Navigate to="/index" />} />
 
+              {/* Loging */}
+              <Route path="/index" element={<Loging />} />
+
               {/* Home */}
-              <Route path="/index" element={<Home />} />
+                <Route path="/Dashboard" element={<Dashboard />} />
+
+
   
         
         </Routes>

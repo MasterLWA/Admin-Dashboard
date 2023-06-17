@@ -4,11 +4,11 @@ import AppRoutes from '../../AppRoutes/AppRoutes.jsx'
 
 const Layout = () => {
     return (
-    <>
+    <body>
         <Nav />
         <AppRoutes />
         <Footer />
-    </>
+    </body>
     )
 }
 

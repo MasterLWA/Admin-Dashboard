@@ -14,4 +14,21 @@
 
 #rowofcards #user-card{
     border-radius: 40px;
+    background-image: url("https://pbs.twimg.com/media/EOwOnZ1XkAAoFz9?format=jpg&name=4096x4096");
+    padding: 15px;
+    color: aliceblue;
+}
+
+#rowofcards #Hours-card {
+    border-radius: 40px;
+    background-image: url("https://pbs.twimg.com/media/EOwOnZ1XkAAoFz9?format=jpg&name=4096x4096");
+    padding: 15px;
+    color: aliceblue;
+}
+
+#rowofcards #Revenue-card{
+    border-radius: 40px;
+    background-image: url("https://pbs.twimg.com/media/EOwOnZ1XkAAoFz9?format=jpg&name=4096x4096");
+    padding: 15px;
+    color: aliceblue;
 }

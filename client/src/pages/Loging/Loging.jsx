@@ -1,6 +1,6 @@
 const Loging = () => {
     return(
-        <div>
+        <div className="container">
             <h1>Loging</h1>
         </div>
     )
